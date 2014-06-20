@@ -7,14 +7,14 @@ class RegulationsDotGov::CommentForm::Option
   end
 
   def value
-    attributes["@value"]
+    attributes["value"]
   end
 
   def label
-    attributes["@label"]
+    attributes["label"]
   end
 
   def default?
-    attributes["@default"] == "true"
+    attributes["default"] == true
   end
 end
