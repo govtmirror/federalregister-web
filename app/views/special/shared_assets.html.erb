@@ -3,7 +3,7 @@
 
 <%= javascript_include_tag my_asset_path('application-shared.js') %>
 
-<% if Rails.env.production? %>
+<% if false %>
   <%= javascript_include_tag my_asset_path('universal_federated_analytics.js?agency=NARA&subagency=fedreg'),
     :id => "_fed_an_ua_tag" %>
 <% end %>
